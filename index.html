@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince's GYM Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <style>
+        * {
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        body {
+            background-image: url('img/4.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+
+        .container {
+            color: white;
+           
+        }
+
+        .header {
+            padding: 14px 15px 54px 2px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 25px;
+            text-shadow: 3px 2.5px red;
+            display: flex;
+        }
+
+        .navbar {
+            display: block;
+            
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            text-decoration: none;
+            list-style: none;
+            padding: 10px 57px;
+            font-size: 29px;
+            font-weight: bold;
+        }
+        .navbar li:hover{
+            text-decoration: underline;
+        }
+       
+        label{
+            font-size: 16px;
+        }
+       
+        #left{
+            position: relative;
+            top: 10px;
+            left: 53px;
+            display: inline-block;
+        }
+        #left img{
+            width: 130px;
+            filter: invert(100%);
+        }
+        #left div {
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            text-shadow: none;
+        }
+    .header h1{
+        display: block;
+        margin: auto;
+    }
+    .container-1{
+        border-radius: 27px;
+        width: 500px;
+        height: 300px;
+        align-items: center;
+        position: relative;
+        top: 30px;
+        left: 58px;
+       }
+       
+       .lud{
+        margin: 19px 2px 25px 2px;
+       }
+       .lud h3{
+        font-size: 22px;
+        text-align: center;
+       }
+       
+       form{
+        text-align: center;
+       }
+       .form-group input{
+        line-height: 22px;
+        margin: 2px;
+        text-align: center;
+        border: 1px solid black;
+        width: 59%;
+        border-radius: 11px;
+        color: black;
+        font-weight: bold;
+        padding: 2px;
+    }
+    .form-group input:hover{
+        border: 2px solid;
+    }
+    button{
+        display: block;
+        margin: auto;
+    }
+    .btn{
+        text-decoration: none;
+        width: 65%;
+        margin: 15px 87px;
+        border: 2px solid black;
+        text-align: center;
+        background: black;
+       border-radius: 16px;
+        line-height: 26px;
+        font-size: 16px;
+}
+.btn:hover{
+    background: #5B577A;
+    font-weight: bold;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div id="left" class="title">
+            <img src="img/3.jpg" alt="Reload...">
+            <div>Prince Fitness</div>
+        </div>
+        <h1>Prince's GYM Website</h1>
+    </div>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Protect</li>
+                    <li>About Us</li>
+                    <li>Content Us</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">
+        <div class="lud">
+        <h3>This is the best GYM of Ludhiana now</h3>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email" required>
+            </div>
+             <div class="form-group">
+                <input type="text" placeholder="Enter your Locality" required>
+            </div>
+             <div class="form-group">
+                <input type="text" placeholder="Enter your Fitness-Program" required>
+            </div>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+        </div>
+        </div>
+</body>
+
+</html>
